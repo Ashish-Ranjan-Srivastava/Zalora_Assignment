@@ -124,6 +124,6 @@ def load_data_to_bq(data):
 # Execution will start form here
 if __name__ == "__main__":
     """ Calling user define functon """
-#    download_file()
+    download_file()
     df,helper_df = read_file()
     calculate_trades(df,helper_df)
